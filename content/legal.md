@@ -15,7 +15,7 @@ You can still reach us through email at `blog at flky dot dev` if you have any q
 
 ## Privacy Policy
 
-At https://blog.flky.dev, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by https://blog.flky.dev and how we use it.
+One of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by us and how we use it.
 
 If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
 
@@ -53,7 +53,7 @@ We **do not** sell, trade, or otherwise transfer any information to any organiza
 
 ### Log Files
 
-https://blog.flky.dev follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.
+We follow a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.
 
 
 ### Cookies and Web Beacons
@@ -65,4 +65,4 @@ For more general information on cookies, please read [this article](https://www.
 
 ### Privacy Regulations
 
-Due to https://blog.flky.dev not storing in a manner that enables us to trace information to a specific person, we cannot comply with data requests under the General Data Protection Regulation (GDPR), the CCPA or similar laws. If you have any further questions about this, please email us at `blog at flky dot dev`.
+Due to us not storing information in a manner that enables us to trace information to a specific person, we cannot comply with data requests under the General Data Protection Regulation (GDPR), the CCPA or similar laws. If you have any further questions about this, please email us at `blog at flky dot dev`.
