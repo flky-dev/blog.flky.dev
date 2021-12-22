@@ -9,9 +9,10 @@ ShowReadingTime: true
 
 
 ## Contact
-Due to only using this site for personal purposes, we do not need to provide any contact information like address or name under German Law ( [§ 18 TMG 1)](https://www.gesetze-bayern.de/Content/Document/MStV-18) ).
+Due to only using this site for personal and purposes, we do not need to provide an imprint under German Law ( [§ 18 TMG 1)](https://www.gesetze-bayern.de/Content/Document/MStV-18) ).
 You can still reach us through email at `blog at flky dot dev` if you have any questions.
 
+---
 
 ## Privacy Policy
 
@@ -29,13 +30,12 @@ By using our website, you hereby consent to our Privacy Policy and agree to its 
 
 ### Information we collect
 
-We currently collect the following information:
-
-- Anonymized IP address
-- Referrers
-- Device and System Information (e.g. Browser, OS, Screen Resolution, Language, etc.)
-- Date and time of visit, including time spent on certain pages
-- Which pages you visited on our website
+To get information about the behavior of our visitors, we use a self hosted
+[Ackee](https://ackee.electerious.com) instace. This
+analytics software gives us insight about our visitors only in general, but not
+about individuals per se, as it does not track visitors and does not store any
+personal identifiable information.
+[Goto their documentation](https://docs.ackee.electerious.com/#/docs/Anonymization) to find out what data Ackee collects.
 
 ### What we do with the information we gather
 
@@ -49,12 +49,7 @@ We use the information we collect in various ways, including to:
 
 ### What we do not do with the information we gather
 
-We **do not** sell, trade, or otherwise transfer any information to any organization.
-
-### Log Files
-
-We follow a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.
-
+We **do not** sell, trade, or otherwise transfer any information to any external organization.
 
 ### Cookies and Web Beacons
 
