@@ -19,6 +19,16 @@
       <description>Page Notice</description>
     </item>
     
+    <item>
+      <title>Legal</title>
+      <link>https://blog.flky.dev/legal/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.flky.dev/legal/</guid>
+      <description>Contact Due to only using this site for personal purposes, we do not need to provide any contact information like address or name under German Law ( § 18 TMG 1) ). You can still reach us through email at blog at flky dot dev if you have any questions.
+Privacy Policy At https://blog.flky.dev, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by https://blog.</description>
+    </item>
+    
     
     
   </channel>
