@@ -8,7 +8,7 @@
 <meta name=description content="FLKYs personal Blog">
 <meta name=author content="FLKY">
 <link rel=canonical href=https://blog.flky.dev/tags/notice/>
-<link crossorigin=anonymous href=/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css integrity="sha256-yIlj/i15RiAA/Q+xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as=style>
+<link crossorigin=anonymous href=/assets/css/stylesheet.min.92e74d06af7c66e4ef6862e745e451b7b193309c1b17596b90955b7c3bffafd7.css integrity="sha256-kudNBq98ZuTvaGLnReRRt7GTMJwbF1lrkJVbfDv/r9c=" rel="preload stylesheet" as=style>
 <link rel=preload href=https://cdn.discordapp.com/attachments/492231098898710538/922895948223500339/apple-touch-icon.png as=image>
 <link rel=icon href=https://cdn.discordapp.com/attachments/492231098898710538/922895948416434226/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://media.discordapp.net/attachments/492231098898710538/922895948680671332/favicon-16x16.png>
@@ -21,8 +21,7 @@
 <link rel=alternate type=application/rss+xml href=https://blog.flky.dev/tags/notice/index.xml>
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
-</noscript><link rel=stylesheet href=/my_css/cookie.css>
-<script async src=https://analytics.flky.dev/tracker.js data-ackee-server=https://analytics.flky.dev data-ackee-domain-id=92cee36f-4b2a-4df4-87d9-7532b5692618 data-ackee-opts='{ "ignoreLocalhost": true, "detailed": true }'></script><meta property="og:title" content="Notice">
+</noscript><script async src=https://analytics.flky.dev/tracker.js data-ackee-server=https://analytics.flky.dev data-ackee-domain-id=92cee36f-4b2a-4df4-87d9-7532b5692618 data-ackee-opts='{ "ignoreLocalhost": true, "detailed": true }'></script><meta property="og:title" content="Notice">
 <meta property="og:description" content="FLKYs personal Blog">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://blog.flky.dev/tags/notice/"><meta property="og:image" content="https://blog.flky.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="og:site_name" content="FLKYs Blog">
@@ -92,14 +91,16 @@
 <script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
 <div class=cookie-container>
 <p>
-We use cookies on this website to give you the best experience on our
-site and show you relevant ads. To find out more, read our
-<a href=/privacy/>privacy policy</a> and <a href=/cookies/>cookie policy</a>.
+We use cookies on this website. To find out more, read our
+<a href=/legal>cookie and privacy policy</a>.
 </p>
 <button class=cookie-btn>
-Okay
+Sure
+</button>
+<button class=nope-cookie-btn>
+Nope!
 </button>
 </div>
-<script src=/my_js/cookie.js></script>
+<script>const cookieContainer=document.querySelector(".cookie-container"),cookieButton=document.querySelector(".cookie-btn"),nopeCookieButton=document.querySelector(".nope-cookie-btn"),cookieBannerDisplayed="cookieBannerDisplayed",analyticsIsAllowed="analyticsIsAllowed",analytics=()=>{const a=document.createElement("script");a.async=!0,a.src="https://analytics.flky.dev/tracker.js",a.setAttribute("data-ackee-server","https://analytics.flky.dev"),a.setAttribute("data-ackee-domain-id","92cee36f-4b2a-4df4-87d9-7532b5692618"),a.setAttribute("data-ackee-opts",'{ "ignoreLocalhost": true, "detailed": true }'),document.head.appendChild(a)},analyticsnc=()=>{const a=document.createElement("script");a.async=!0,a.src="https://analytics.flky.dev/tracker.js",a.setAttribute("data-ackee-server","https://analytics.flky.dev"),a.setAttribute("data-ackee-domain-id","92cee36f-4b2a-4df4-87d9-7532b5692618"),a.setAttribute("data-ackee-opts",'{ "ignoreLocalhost": true, "detailed": false }'),document.head.appendChild(a)};localStorage.getItem(analyticsIsAllowed)==="true"&&analyics(),cookieButton.addEventListener("click",()=>{cookieContainer.classList.remove("active"),localStorage.setItem(cookieBannerDisplayed,"true"),localStorage.setItem(analyticsIsAllowed,"true"),analyics()}),nopeCookieButton.addEventListener("click",()=>{cookieContainer.classList.remove("active"),localStorage.setItem(cookieBannerDisplayed,"true"),localStorage.setItem(analyticsIsAllowed,"false"),analyicsnc()}),setTimeout(()=>{localStorage.getItem(cookieBannerDisplayed)||cookieContainer.classList.add("active")},100)</script>
 </body>
 </html>
