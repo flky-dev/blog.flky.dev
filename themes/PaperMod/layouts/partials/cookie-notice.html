@@ -7,58 +7,6 @@
         Sure
     </button>
     <button class="nope-cookie-btn">
-        Nope!
+        Nah
     </button>
 </div>
-
-<script>
-    const cookieContainer = document.querySelector(".cookie-container");
-    const cookieButton = document.querySelector(".cookie-btn");
-    const nopeCookieButton = document.querySelector(".nope-cookie-btn");
-    const cookieBannerDisplayed = "cookieBannerDisplayed"
-    const analyticsIsAllowed = "analyticsIsAllowed"
-    const analytics = () => {
-        const script = document.createElement("script");
-        script.async = true;
-        script.src = "https://analytics.flky.dev/tracker.js";
-        script.setAttribute("data-ackee-server", "https://analytics.flky.dev");
-        script.setAttribute("data-ackee-domain-id", "92cee36f-4b2a-4df4-87d9-7532b5692618");
-        script.setAttribute("data-ackee-opts", "{ \"ignoreLocalhost\": true, \"detailed\": true }");
-        document.head.appendChild(script);
-    }
-
-    const analyticsnc = () => {
-        const script = document.createElement("script");
-        script.async = true;
-        script.src = "https://analytics.flky.dev/tracker.js";
-        script.setAttribute("data-ackee-server", "https://analytics.flky.dev");
-        script.setAttribute("data-ackee-domain-id", "92cee36f-4b2a-4df4-87d9-7532b5692618");
-        script.setAttribute("data-ackee-opts", "{ \"ignoreLocalhost\": true, \"detailed\": false }");
-        document.head.appendChild(script);
-    }
-
-    if (localStorage.getItem(analyticsIsAllowed) === "true") {
-        analyics();
-    }
-
-    cookieButton.addEventListener("click", () => {
-        cookieContainer.classList.remove("active");
-        localStorage.setItem(cookieBannerDisplayed, "true");
-        localStorage.setItem(analyticsIsAllowed, "true");
-        analyics();
-    });
-
-    nopeCookieButton.addEventListener("click", () => {
-        cookieContainer.classList.remove("active");
-        localStorage.setItem(cookieBannerDisplayed, "true");
-        localStorage.setItem(analyticsIsAllowed, "false");
-        analyicsnc();
-    });
-
-    setTimeout(() => {
-        if (!localStorage.getItem(cookieBannerDisplayed)) {
-            cookieContainer.classList.add("active");
-
-        }
-    }, 100);
-</script>
