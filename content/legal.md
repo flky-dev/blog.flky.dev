@@ -35,7 +35,7 @@ To get information about the behavior of our visitors, we use a self hosted
 analytics software gives us insight about our visitors only in general, but not
 about individuals per se, as it does not track visitors and does not store any
 personal identifiable information.
-[Goto their documentation](https://docs.ackee.electerious.com/#/docs/Anonymization) to find out what data Ackee collects.
+[Go to their documentation](https://docs.ackee.electerious.com/#/docs/Anonymization) to find out what data Ackee collects.
 
 ### What we do with the information we gather
 
@@ -55,8 +55,13 @@ We **do not** sell, trade, or otherwise transfer any information to any external
 
 Like any other website, https://blog.flky.dev uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
 
-For more general information on cookies, please read [this article](https://www.generateprivacypolicy.com/#cookies).
+If you want to delete this data, press this button or take a look at [this article](/cookies).
 
+**{{< rawhtml >}}
+
+<button class="btn-deny flush">Clear cookies</button>
+
+{{< /rawhtml >}}**
 
 ### Privacy Regulations
 

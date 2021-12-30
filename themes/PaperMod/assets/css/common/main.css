@@ -101,24 +101,24 @@ pre:hover .copy-code {
     text-underline-offset: .4rem;
 }
 
-.cookie-btn {
+.btn-accept {
     margin-top: 1rem;
     background: var(--confirm);
     border: 0;
     color: var(--primary);
-    padding: .6rem 1.2rem;
+    padding: .3rem 1.2rem;
     font-size: 1.2rem;
     margin-bottom: 1rem;
     border-radius: .5rem;
     cursor: pointer;
 }
 
-.nope-cookie-btn {
+.btn-deny {
     margin-top: 1rem;
     border: 0;
     background: var(--deny);
     color: var(--primary);
-    padding: .6rem 1.2rem;
+    padding: .3rem 1.2rem;
     font-size: 1.2rem;
     margin-bottom: 1rem;
     border-radius: .5rem;

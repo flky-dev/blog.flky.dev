@@ -1,6 +1,6 @@
 const cookieContainer = document.querySelector(".cookie-container");
-const cookieButton = document.querySelector(".cookie-btn");
-const nopeCookieButton = document.querySelector(".nope-cookie-btn");
+const cookieButton = document.querySelector(".btn-cookie-accept");
+const nopeCookieButton = document.querySelector(".btn-cookie-deny");
 const cookieBannerDisplayed = "cookieBannerDisplayed"
 const analyticsIsAllowed = "analyticsIsAllowed"
 

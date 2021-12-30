@@ -99,6 +99,11 @@
 {{- $cookies := (slice (resources.Get "js/cookies.js") ) | resources.Concat "assets/js/cookies.js" | minify | fingerprint }}
 <script defer crossorigin="anonymous" src="{{ $cookies.RelPermalink }}"></script>
 
+{{- /* Flush data */}}
+{{- $flush := (slice (resources.Get "js/flush.js") ) | resources.Concat "assets/js/flush.js" | minify | fingerprint }}
+<script defer crossorigin="anonymous" src="{{ $flush.RelPermalink }}"></script>
+
+
 {{- /* Favicons */}}
 <link rel="icon" href="{{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.Params.assets.favicon16x16 | default "favicon-16x16.png" | absURL }}">
