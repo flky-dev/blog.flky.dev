@@ -55,7 +55,7 @@ We **do not** sell, trade, or otherwise transfer any information to any external
 
 Like any other website, https://blog.flky.dev uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
 
-If you want to delete this data, press this button or take a look at [this article](/cookies).
+If you want to delete this data, clicl the button below or take a look at [this article](/cookies).
 
 **{{< rawhtml >}}
 
