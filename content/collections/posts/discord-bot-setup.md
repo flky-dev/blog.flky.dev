@@ -4,7 +4,7 @@ date: 2022-01-09T17:05:44+01:00
 tags: ["Discord", "Bot", "Red-DiscordBot", "Docker"]
 author: ["FLKY"]
 url: "/posts/discord-bot-setup"
-description: "How to set up your own Discord Bot using the Red-DiscordBot and Docker"
+summary: "How to set up your own Discord Bot using the Red-DiscordBot and Docker"
 cover:
     image: "https://media.discordapp.net/attachments/929076177841307698/929786562521215036/unknown.png"           # image path/url
     caption: "Red-DiscordBot"         # display caption under cover
