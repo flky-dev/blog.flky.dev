@@ -83,19 +83,19 @@ params:
     - name: github
       url: "https://github.com/Flonky"
     - name: dev
-      url: "https://dev.to/flky"
+      url: "https://dev.to/ThighHighDev"
     - name: twitter
-      url: "https://twitter.com/Flonky_"
+      url: "https://twitter.com/ThighHighDev"
     - name: discord
       url: "https://discordapp.com/users/355330245433360384/"
     - name: telegram
-      url: "https://t.me/Flonky"
+      url: "https://t.me/ThighHighDev"
     - name: steam
-      url: "https://steamcommunity.com/id/flonky_/"
+      url: "https://steamcommunity.com/id/ThighHighDev/"
     - name: liberapay
-      url: "https://liberapay.com/flky"
+      url: "https://liberapay.com/ThighHighDev"
     - name: kofi
-      url: "https://ko-fi.com/flonky"
+      url: "https://ko-fi.com/ThighHighDev"
 
 
   #analytics:
