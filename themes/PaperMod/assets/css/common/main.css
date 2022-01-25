@@ -101,6 +101,18 @@ pre:hover .copy-code {
     text-underline-offset: .4rem;
 }
 
+.btn {
+    margin-top: 1rem;
+    background: var(--code-bg);
+    border: 0;
+    color: var(--primary);
+    padding: .3rem 1.2rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
 .btn-accept {
     margin-top: 1rem;
     background: var(--confirm);
