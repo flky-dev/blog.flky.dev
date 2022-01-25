@@ -4,6 +4,7 @@ const nopeCookieButton = document.querySelector(".btn-cookie-deny");
 const cookieBannerDisplayed = "cookieBannerDisplayed"
 const analyticsIsAllowed = "analyticsIsAllowed"
 
+// Anonymous, self hosted and privacy oriented analytics powered by Ackee. Don't worry, I'm not facebook^^ 
 const analytics = (state) => {
     const script = document.createElement("script");
     script.async = true;
