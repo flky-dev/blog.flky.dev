@@ -1,5 +1,4 @@
 ---
-draft: true
 title: How to Delete Cookies
 date: 2021-12-30T16:00:07+01:00
 tags: ["Cookies"]
