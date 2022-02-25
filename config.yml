@@ -47,14 +47,14 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     disableFingerprinting: false
-    favicon: "https://cdn.discordapp.com/attachments/492231098898710538/922895948416434226/favicon.ico"
-    favicon16x16: "https://media.discordapp.net/attachments/492231098898710538/922895948680671332/favicon-16x16.png"
-    favicon32x32: "https://media.discordapp.net/attachments/492231098898710538/922896537351258122/favicon-32x32.png>"
-    apple_touch_icon: "https://cdn.discordapp.com/attachments/492231098898710538/922895948223500339/apple-touch-icon.png"
+    favicon: "https://us-east-1.tixte.net/uploads/cdn.flky.dev/1favicon.ico"
+    favicon16x16: "https://us-east-1.tixte.net/uploads/cdn.flky.dev/favicon-16x16.png"
+    favicon32x32: "https://us-east-1.tixte.net/uploads/cdn.flky.dev/favicon-32x32.png"
+    apple_touch_icon: "https://us-east-1.tixte.net/uploads/cdn.flky.dev/apple-touch-icon.png"
 
   label:
     text: "FLKY"
-    icon: "https://cdn.discordapp.com/attachments/492231098898710538/922895948223500339/apple-touch-icon.png"
+    icon: "https://us-east-1.tixte.net/uploads/cdn.flky.dev/apple-touch-icon.png"
     iconHeight: 35
 
   # profile-mode
@@ -62,7 +62,7 @@ params:
     enabled: false # needs to be explicitly set
     title: FLKYs Blog
     subtitle: "A freetime devs blog"
-    imageUrl: "https://media.discordapp.net/attachments/841054642002853918/862764260236328960/pfp.png"
+    imageUrl: "https://us-east-1.tixte.net/uploads/cdn.flky.dev/pfp.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: Profile Picture
