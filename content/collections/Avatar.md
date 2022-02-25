@@ -7,6 +7,4 @@ description: "I've acquired some new textures for my avatar!"
 
 ---
 
-{{ < 3d path="https://us-east-1.tixte.net/uploads/cdn.flky.dev/flky-standard.vrm" > }}
-
-{{ < /3d > }}
+{{< three path="https://us-east-1.tixte.net/uploads/cdn.flky.dev/flky-standard.vrm" >}}
