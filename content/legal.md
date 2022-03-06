@@ -37,6 +37,9 @@ about individuals per se, as it does not track visitors and does not store any
 personal identifiable information.
 [Go to their documentation](https://docs.ackee.electerious.com/#/docs/Anonymization) to find out what data Ackee collects.
 
+Current Ackee version being used:
+`3.1.1`
+
 ### What we do with the information we gather
 
 We use the information we collect in various ways, including to:
