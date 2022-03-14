@@ -1,7 +1,7 @@
 ---
-title: "Archive"        # in any language you want
+title: "Posts"        # in any language you want
 layout: "archives"      # is necessary
-url: "/archive"
+url: "/posts"
 # description: "Description for Search"
-summary: "Archive"
+summary: "Posts"
 ---
