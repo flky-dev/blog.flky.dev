@@ -26,7 +26,7 @@ params:
   description: "FLKYs personal Blog"
   keywords: [Blog, FLKY, Development]
   author: FLKY
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["https://us-east-1.tixte.net/uploads/cdn.flky.dev/pfp.webp"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light
   disableThemeToggle: false
@@ -59,18 +59,14 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: true # needs to be explicitly set
     title: FLKYs Blog
     subtitle: "A freetime devs blog"
-    imageUrl: "https://us-east-1.tixte.net/uploads/cdn.flky.dev/pfp.png"
+    imageUrl: "https://us-east-1.tixte.net/uploads/cdn.flky.dev/pfp.webp"
     imageWidth: 120
     imageHeight: 120
     imageTitle: Profile Picture
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+
 
   # home-info mode
   homeInfoParams:
@@ -158,8 +154,8 @@ menu:
       url: /tags/
       weight: 10
     - identifier: Archive
-      name: Archive
-      url: /archive/
+      name: Posts
+      url: /posts/
       weight: 20
     - identifier: Search
       name: Search
