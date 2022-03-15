@@ -63,8 +63,8 @@ params:
     title: FLKYs Blog
     subtitle: "A freetime devs blog"
     imageUrl: "https://us-east-1.tixte.net/uploads/cdn.flky.dev/pfp.webp"
-    imageWidth: 120
-    imageHeight: 120
+    imageWidth: 240
+    imageHeight: 240
     imageTitle: Profile Picture
 
 
