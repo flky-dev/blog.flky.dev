@@ -1,0 +1,47 @@
+{{ if .Get "path" }}
+{{ else }}
+{{ warnf "missing value for param 'path': %s" .Position }}
+{{ end }}
+
+{{- $three := (slice (resources.Get "js/3d/three.js") ) | resources.Concat "assets/js/three.js" | minify | fingerprint }}
+{{- $GLTFLoader := (slice (resources.Get "js/3d/GLTFLoader.js") ) | resources.Concat "assets/js/GLTFLoader.js" | minify | fingerprint }}
+{{- $threevrm := (slice (resources.Get "js/3d/three-vrm.js") ) | resources.Concat "assets/js/three-vrm.js" | minify | fingerprint }}
+
+
+<script src="{{ $three.RelPermalink }}"></script>
+<script src="{{ $GLTFLoader.RelPermalink }}"></script>
+<script src="{{ $threevrm.RelPermalink }}"></script>
+
+<script>
+const scene = new THREE.Scene();
+
+const loader = new THREE.GLTFLoader();
+loader.load(
+
+    // URL of the VRM you want to load
+    '{{ .Get "path" }}',
+
+    // called when the resource is loaded
+    ( gltf ) => {
+
+        // generate a VRM instance from gltf
+        THREE.VRM.from( gltf ).then( ( vrm ) => {
+
+            // add the loaded vrm to the scene
+            scene.add( vrm.scene );
+
+            // deal with vrm features
+            console.log( vrm );
+
+        } );
+
+    },
+
+    // called while loading is progressing
+    ( progress ) => console.log( 'Loading model...', 100.0 * ( progress.loaded / progress.total ), '%' ),
+
+    // called when loading has errors
+    ( error ) => console.error( error )
+
+);
+</script>
