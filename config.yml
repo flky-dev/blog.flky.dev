@@ -26,7 +26,7 @@ params:
   description: "FLKYs personal Blog"
   keywords: [Blog, FLKY, Development]
   author: FLKY
-  images: ["https://us-east-1.tixte.net/uploads/cdn.flky.dev/pfp.webp"]
+  images: ["https://cdn.flky.dev/general/pfp.webp"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light
   disableThemeToggle: false
@@ -47,14 +47,14 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     disableFingerprinting: false
-    favicon: "https://us-east-1.tixte.net/uploads/cdn.flky.dev/1favicon.ico"
-    favicon16x16: "https://us-east-1.tixte.net/uploads/cdn.flky.dev/favicon-16x16.png"
-    favicon32x32: "https://us-east-1.tixte.net/uploads/cdn.flky.dev/favicon-32x32.png"
-    apple_touch_icon: "https://us-east-1.tixte.net/uploads/cdn.flky.dev/apple-touch-icon.png"
+    favicon: "https://cdn.flky.dev/general/1favicon.ico"
+    favicon16x16: "https://cdn.flky.dev/general/favicon-16x16.png"
+    favicon32x32: "https://cdn.flky.dev/general/favicon-32x32.png"
+    apple_touch_icon: "https://cdn.flky.dev/general/apple-touch-icon.png"
 
   label:
     text: "FLKY"
-    icon: "https://us-east-1.tixte.net/uploads/cdn.flky.dev/apple-touch-icon.png"
+    icon: "https://cdn.flky.dev/general/apple-touch-icon.png"
     iconHeight: 35
 
   # profile-mode
@@ -62,7 +62,7 @@ params:
     enabled: true # needs to be explicitly set
     title: FLKYs Blog
     subtitle: "A freetime devs blog"
-    imageUrl: "https://us-east-1.tixte.net/uploads/cdn.flky.dev/pfp.webp"
+    imageUrl: "https://cdn.flky.dev/general/pfp.webp"
     imageWidth: 240
     imageHeight: 240
     imageTitle: Profile Picture

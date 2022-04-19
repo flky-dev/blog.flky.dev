@@ -6,7 +6,7 @@ author: ["FLKY"]
 url: "/posts/discord-bot-setup"
 summary: "How to set up your own Discord Bot using the Red-DiscordBot and Docker"
 cover:
-    image: "https://us-east-1.tixte.net/uploads/cdn.flky.dev/cli.png"           # image path/url
+    image: "https://cdn.flky.dev/blog/cli.png"           # image path/url
     caption: "Red-DiscordBot"         # display caption under cover
     relative: false     # when using page bundles set this to true
 
@@ -19,40 +19,40 @@ I'm going to assume that you already have Docker installed and configured. If yo
 Since we want our bot to work, we need to obtain a token. This token is used to authenticate the bot.
 To obtain a token, go to discords [Developer Portal](https://discordapp.com/developers/applications/) and click
 
-![New Application](https://us-east-1.tixte.net/uploads/cdn.flky.dev/NewApplication.png)
+![New Application](https://cdn.flky.dev/blog/NewApplication.png)
 
 in the top right corner next to your profile picture.
 
 A prompt will pop up asking you to enter the application's name. This name is only used within the application list and upon the initial bot creation, you can simply the bot later to something different.
 
-![Create an application](https://us-east-1.tixte.net/uploads/cdn.flky.dev/CreateAnApplication.png)
+![Create an application](https://cdn.flky.dev/blog/CreateAnApplication.png)
 
 Just enter an arbitrary name and click 
 
-![Create](https://us-east-1.tixte.net/uploads/cdn.flky.dev/Create.png)
+![Create](https://cdn.flky.dev/blog/Create.png)
 
 You should now be greeted with the `General Information` page of the application you just created.
 In the Navigation bar on the left, select `Bot` and the click 
 
-![Add Bot](https://us-east-1.tixte.net/uploads/cdn.flky.dev/AddBot.png)
+![Add Bot](https://cdn.flky.dev/blog/AddBot.png)
 
 A prompt like this should have appeared.
 
-![Add a bot to this app?](https://us-east-1.tixte.net/uploads/cdn.flky.dev/AddBotToThis.png)
+![Add a bot to this app?](https://cdn.flky.dev/blog/AddBotToThis.png)
 
 Just click 
 
-![Yes, do it!](https://us-east-1.tixte.net/uploads/cdn.flky.dev/YesDoIt.png)
+![Yes, do it!](https://cdn.flky.dev/blog/YesDoIt.png)
 
 and continue.
 Congratulations, you have just added your first bot!
 For red to work we need to enable all intents under `Privileged Gateway Intents` like this
 
-![Privileged Gateway Intents](https://us-east-1.tixte.net/uploads/cdn.flky.dev/PrivelegedGatewayIntents.png#center)
+![Privileged Gateway Intents](https://cdn.flky.dev/blog/PrivelegedGatewayIntents.png#center)
 
 Next click on the copy button next to the Regenerate button, and you should now have your first token.
 
-![Token](https://us-east-1.tixte.net/uploads/cdn.flky.dev/Token.png)
+![Token](https://cdn.flky.dev/blog/Token.png)
 
 Now you're pretty much set up for the second step.
 
@@ -75,7 +75,7 @@ Now just run the command and Docker will do the rest for you.
 
 Once Docker has finished the setup, you should see a printout like this:
 
-![Printout](https://us-east-1.tixte.net/uploads/cdn.flky.dev/cli.png#center)
+![Printout](https://cdn.flky.dev/blog/cli.png#center)
 
 Click the URL on the bottom to invite bot to your server.
 This is currently the barebones version of your bot and has almost no commands or functionality. To fix this, you need to either dm the bot or send the following message in any channel of the server you invited it to:
