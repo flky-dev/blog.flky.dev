@@ -38,7 +38,7 @@ personal identifiable information.
 [Go to their documentation](https://docs.ackee.electerious.com/#/docs/Anonymization) to find out what data Ackee collects.
 
 Current Ackee version being used:
-`3.1.1`
+`3.3.1`
 
 ### What we do with the information we gather
 
